@@ -1,13 +1,15 @@
 .wordstack {
     display: flex;
-    height: 5em;
+    flex-flow: row wrap;
+    min-height: 5em;
+    height: auto;
     align-items: center;
     gap: 1em;
     background-color: #E6E6E7;
     border-radius: 10px;
     box-shadow: 0 2px 3.5px #C3C3C3;
     margin-bottom: 1em;
-    padding: 0 2%;
+    padding: 1em 1em;
 }
 
 .word {

@@ -1,3 +1,6 @@
 .App {
-    margin: 40% 5%;
+    width: 50em;
+    max-height: auto;
+    align-self: center;
 }
+
